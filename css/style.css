@@ -6,14 +6,40 @@
 
 /* #MENU-SUPERIOR */
 
+#menu-superior{
+    background-color: grey;
+    text-align: center;
+}
+
 /* #IMAGEM-INFERIOR */
+ #imagem-inferior{
+    text-align: center;
+ } 
 
 /* #INFO-BLOG */
+#info-blog{
+    text-align: center;
+}
 
 /* #IMAGEM ESQUERDA */
 
+#imagem-esquerda{
+    text-align: left;
+}
+
 /* #IMAGEM DIREITA */
 
+#imagem-direita{
+    text-align: right;
+}
+
 /* #SOBRE DA IMAGEM ESQUERDA */
+#info-esquerda{
+    text-align: left;
+}
 
 /* #SOBRE DA IMAGEM DIREITA */
+
+#info-direita{
+    text-align: right;
+}
