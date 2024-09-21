@@ -7,17 +7,6 @@
 
 /* ASSIGNS-CLASSES */
 
-.search{
-    position: absolute;
-    right: 5%;
-    top: 1%;
-    padding: 10px;
-    border-radius: 1px;
-    border: 1px;
-    background-color: aliceblue;    
-    width: 152px;
-    font-size: 15px;
-}
 
 .border-glow{
     border: 1px rgb(48, 47, 57);
@@ -37,9 +26,38 @@ h1{
 
 #menu-superior{
     margin-bottom: 15px;
-    padding:25px;
+    padding:30px;
     background-color: rgb(63, 63, 67);
     text-align: center;
+}
+
+.search{
+    position: absolute;
+    right: 4%;
+    top: 1.5%;
+    padding: 10px;
+    border-radius: 1px;
+    border: 1px rgb(63, 63, 67);
+    background-color: aliceblue;    
+    width: 175px;
+    font-size: 20px;
+}
+
+.search:focus{
+    outline: none;
+    border-color: aliceblue;
+    box-shadow: 0px 0px 4px aliceblue;
+}
+
+.menu-icone{
+    width: 15x;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+
 }
 
 /* #IMAGEM-INFERIOR */
