@@ -54,12 +54,15 @@ h1{
     top: 4%;
     left: 1.5%;
 }
-
+.menu-bar{
+    cursor: pointer;
+}
 
 /* #IMAGEM-INFERIOR */
- #imagem-inferior{
-    text-align: center;
- } 
+ .imagem{
+    width: 500px;
+    padding-left: 456px;
+ }
 
 /* #INFO-BLOG */
 #info-blog{
