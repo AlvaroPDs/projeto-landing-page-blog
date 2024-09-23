@@ -3,6 +3,8 @@
 *{
     background-color: rgb(10, 10, 11);
     margin: 0px;
+    font-weight: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* ASSIGNS-CLASSES */
@@ -59,9 +61,14 @@ h1{
 }
 
 /* #IMAGEM-INFERIOR */
- .imagem{
+.imagem-inferior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
     width: 500px;
-    margin-left: 32.5%;
     margin-top: 15px;
     border: 2px solid rgb(48, 47, 57);
     border-radius: 1px;
@@ -72,7 +79,10 @@ h1{
 #info-blog{
     text-align: center;
 }
+#titulo-info{
+  
 
+}
 /* #IMAGEM ESQUERDA */
 
 #imagem-esquerda{
