@@ -71,18 +71,19 @@ body{
 .area-inferior{
     display: grid;
     grid-auto-flow: column;
-    column-gap: 300px;
+    column-gap: 200px;
 }
 
 .info-centro{
 }
-
-.info-esquerda{
-  
+.info-esquerda{ 
 
 }
-
-
 .info-direita{
     
+}
+
+.comentarios{
+    margin-top: 100px;
+    text-align: center;
 }
