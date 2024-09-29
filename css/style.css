@@ -60,21 +60,29 @@ body{
 
 /* #INFO-BLOG */
 .info-blog{
-    text-align: center;
+    display: block;
+    margin: auto;
+    width: 300px;
 }
 
 
 /*AREA INFERIOR*/
 
 .area-inferior{
-    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 300px;
+}
+
+.info-centro{
 }
 
 .info-esquerda{
+  
 
 }
 
 
 .info-direita{
-
+    
 }
