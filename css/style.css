@@ -1,32 +1,19 @@
 /* ------PAGINA INTEIRA-------- */
 
-*{
+body{
     background-color: rgb(10, 10, 11);
     margin: 0px;
     font-weight: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-/* ASSIGNS-CLASSES */
-
-
-.border-glow{
-    border: 1px rgb(48, 47, 57);
-    border-radius: 1px;
-    outline: none;
-    box-shadow: 0px 0px 5px rgb(71, 71, 78);
-}
-
-h1{
+                
+.h1-white{
     color: aliceblue;
 }
-/* #JAVASCRIPT */
-
-/* #KEYFRAMES */
 
 /* #MENU-SUPERIOR */
 
-#menu-superior{
+.menu-superior{
     margin-bottom: 15px;
     padding:30px;
     background-color: rgb(63, 63, 67);
@@ -76,32 +63,22 @@ h1{
  }
 
 /* #INFO-BLOG */
-#info-blog{
+.info-blog{
     text-align: center;
 }
-#titulo-info{
-  
 
-}
-/* #IMAGEM ESQUERDA */
 
-#imagem-esquerda{
-    text-align: left;
+/*AREA INFERIOR*/
+
+.area-inferior{
+    text-align: center;
 }
 
-/* #IMAGEM DIREITA */
+.info-esquerda{
 
-#imagem-direita{
-    text-align: right;
 }
 
-/* #SOBRE DA IMAGEM ESQUERDA */
-#info-esquerda{
-    text-align: left;
-}
 
-/* #SOBRE DA IMAGEM DIREITA */
+.info-direita{
 
-#info-direita{
-    text-align: right;
 }
