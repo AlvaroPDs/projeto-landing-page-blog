@@ -60,9 +60,7 @@ body{
 
 /* #INFO-BLOG */
 .info-blog{
-    display: block;
-    margin: auto;
-    width: 300px;
+    text-align: center;
 }
 
 
@@ -71,17 +69,27 @@ body{
 .area-inferior{
     display: grid;
     grid-auto-flow: column;
-    column-gap: 200px;
+    column-gap: 50px;
+    padding-left: 135px;
+    padding-right: 35px;
 }
 
-.info-centro{
+.info-direita img{
+    max-width:300px;
+    max-height: 600px;
 }
-.info-esquerda{ 
+
+.info-esquerda img{
+    max-width: 300px;
+    max-height: 600px;
+}
+
+.info-centro img{
+    max-width:300px;
+    max-height: 600px;
 
 }
-.info-direita{
-    
-}
+
 
 .comentarios{
     margin-top: 100px;
